@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    tools:context=".UpdateActivity">
+
+    <TextView
+        android:id="@+id/update"
+        android:layout_width="245dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Update Information"
+        android:textColor="#800000"
+        android:fontFamily="serif"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="77dp"
+        android:layout_marginEnd="62dp"
+        android:text="Save"
+        android:background="@drawable/btn_bg"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="62dp" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:src="@drawable/profile"
+        android:layout_height="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp" />
+
+    <EditText
+        android:id="@+id/u_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="208dp"
+        android:focusable="true"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/u_phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:focusable="true"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/u_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="209dp"
+        android:focusable="true"
+        android:hint="Email Address"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"
+        tools:ignore="DuplicateIds" />
+
+
+
+</RelativeLayout>

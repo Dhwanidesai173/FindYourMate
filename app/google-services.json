@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "432330743642",
+    "firebase_url": "https://findyourmate-ad778.firebaseio.com",
+    "project_id": "findyourmate-ad778",
+    "storage_bucket": "findyourmate-ad778.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432330743642:android:d3773098840db41e",
+        "android_client_info": {
+          "package_name": "com.example.dhwani.findyourmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432330743642-kmkikmvh6e1vjg24siagt9hodfhn8vpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dhwani.findyourmate",
+            "certificate_hash": "44e85d8c5d2d30fcfeeb4276961f38cf34ccf034"
+          }
+        },
+        {
+          "client_id": "432330743642-iq4bpfui17a4pa56fggbptkfffv674nk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "432330743642-iq4bpfui17a4pa56fggbptkfffv674nk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjofkIXALXP0DbVU5KLMMulFbaEHlgTDE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432330743642-iq4bpfui17a4pa56fggbptkfffv674nk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

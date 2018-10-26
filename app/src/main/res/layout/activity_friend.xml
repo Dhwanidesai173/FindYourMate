@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FriendActivity">
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mt_hint="Search"
+        app:mt_speechMode="false"
+        android:id="@+id/search">
+    </com.mancj.materialsearchbar.MaterialSearchBar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_search"
+        android:layout_width="match_parent"
+        android:layout_height="519dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="27dp" />
+
+</LinearLayout>

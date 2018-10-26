@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="submit" type="id">submit</item>
+    <item name="checkButton" type="id">c1</item>
+</resources>
